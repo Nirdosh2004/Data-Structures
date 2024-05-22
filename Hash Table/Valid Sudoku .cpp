@@ -1,4 +1,4 @@
-class Solution {
+   class Solution {
 public:
     bool isValidSudoku(vector<vector<char>>& board) {
         //time and space = O(1) #because loop runs for only 9*9 times 
