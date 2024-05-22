@@ -4,7 +4,7 @@ public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         // Time Complexity: O(n * k log k)
         // Space Complexity: O(n * k)
-        vector<vector<string>> ans; // Initialize a vector to store the grouped anagrams
+        vector<vector<string>> ans; // Initialize a vector to store the grouped anagram
         unordered_map<string , vector<string>> mp; // Initialize an unordered_map to store sorted strings and their corresponding original strings
         
         // Iterate through each string in the input vector
